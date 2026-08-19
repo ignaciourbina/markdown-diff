@@ -1,0 +1,45 @@
+{
+ "entries": [
+  {
+   "after": "The study examines belief updating and formation.",
+   "before": "The study examines belief formation.",
+   "heading": "Motivation",
+   "id": "628751ab6375",
+   "line": 4,
+   "type": "modification"
+  },
+  {
+   "after": "- item three",
+   "before": "",
+   "heading": "Data",
+   "id": "a967b76a14e9",
+   "line": 11,
+   "type": "addition"
+  },
+  {
+   "after": "",
+   "before": "Trailing spaces here",
+   "heading": "Data",
+   "id": "00bee0f76366",
+   "line": 12,
+   "type": "deletion"
+  },
+  {
+   "after": "## Methodology\nWe use a pre-registered survey experiment.\nA second wave follows.",
+   "before": "## Methods\nWe use a survey experiment.",
+   "heading": "Methodology",
+   "id": "3bb243c7953a",
+   "line": 15,
+   "type": "modification"
+  }
+ ],
+ "norm_a": "# Project Notes\n\n## Motivation\nThe study examines belief formation.\nSome claims need work.\n\n### Data\n- item one\n- item two\n - nested item\n\nTrailing spaces here\nAnd tabs inside.\n\n## Methods\nWe use a survey experiment.",
+ "summary": {
+  "add": 1,
+  "del": 1,
+  "fmt": 0,
+  "mod": 2,
+  "total": 4
+ },
+ "unified": "--- a.md\n+++ b.md\n@@ -1,16 +1,17 @@\n # Project Notes\n \n ## Motivation\n-The study examines belief formation.\n+The study examines belief updating and formation.\n Some claims need work.\n \n ### Data\n - item one\n - item two\n  - nested item\n+- item three\n \n-Trailing spaces here\n And tabs inside.\n \n-## Methods\n-We use a survey experiment.\n+## Methodology\n+We use a pre-registered survey experiment.\n+A second wave follows."
+}
